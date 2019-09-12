@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img src="/assets/logo.png" alt="Logo de la empresa" style="width: 10%">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ml-auto justify-content-around">
+                {{#if user}}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/dashboard">Dashboard</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/users/logout">Cerrar sesion</a>
+                        <a class="dropdown-item" href="/contact/all">Contactos</a>
+
+                    </div>
+                </li>
+                {{else}}
+                <li class="nav-item">
+                    <a class="nav-link" href="/price">Precios</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contactanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/users/signup">Registrate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/users/signin">Inicia sesion</a>
+                </li>
+                {{/if}}
+
+                
+
+
+            </ul>
+        </div>
+    </div>
+</nav>

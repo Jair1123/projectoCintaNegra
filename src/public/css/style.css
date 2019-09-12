@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.logo{
+    width: 30%;
+}
+
+footer {
+    height: 15vh;
+    background-color: #30336b;
+    display: inline-block;
+    align-items: flex-end;
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

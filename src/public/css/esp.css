@@ -1,0 +1,19 @@
+.containere{
+    margin-top: 2px;
+    margin-bottom: 150px;
+    
+}
+
+.titulos{
+    font-size: 40px;
+    color: green;
+    
+}
+.bloque{
+    color: #fff;
+}
+
+.bloque > a{
+    font-size: 30px;
+    
+}

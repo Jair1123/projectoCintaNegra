@@ -1,0 +1,41 @@
+{{!--Validacion de handle bars de los errores --}}
+{{!-- lo que iba aqui esta en erros.hbs --}}
+{{!--  --}}
+
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <h3 id="contact">Contactanos</h3>
+                <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+                <form action="/contact/add" method="POST">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <i class="far fa-user input-group-text"></i>
+                        </div>
+                        <input type="text" class="form-control" name="nombre" placeholder="Nombre"  autofocus>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <i class="fas fa-envelope input-group-text"></i>
+                        </div>
+                        <input type="text" class="form-control" name="correo"  placeholder="Email">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <i class="fas fa-pencil-alt input-group-text"></i>
+                        </div>
+                        <textarea id="" cols="30" rows="10" name="mensaje"  placeholder="Escribe tu mensaje"
+                            class="form-control"></textarea>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+            <div class="col-lg-3 align-self-center">
+                <img src="assets/image.png" alt="" style="width: 90%">
+            </div>
+        </div>
+    </div>
+</section>
