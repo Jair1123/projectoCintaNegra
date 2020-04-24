@@ -6,10 +6,10 @@ int contconexion = 0;
 
 const char *ssid = "BlackPhone";
 const char *password = " ";
-char   SERVER[50]   = "3.83.223.148"; //"soldier.cloudmqtt.com"
-int    SERVERPORT   = 14591;
-String USERNAME = "enaeteby";   
-char   PASSWORD[50] = "frF-bTU_Ct51";     
+char   SERVER[50]   = ""; //"soldier.cloudmqtt.com"
+int    SERVERPORT   = ;
+String USERNAME = "";   
+char   PASSWORD[50] = "";     
 
 unsigned long previousMillis = 0;
 
